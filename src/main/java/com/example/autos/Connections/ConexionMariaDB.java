@@ -10,9 +10,9 @@ public class ConexionMariaDB {
     public static Connection getConexion() {
         Connection con = null;
 
-        String server = "localhost";
-        String user = "root";
-        String pass = "taliTakumi514";
+        String server = "database-logic-studio-2.ch2ooupkf5hf.us-east-1.rds.amazonaws.com";
+        String user = "admin";
+        String pass = "taliTakumi";
         String port = "3306";
         String db = "logic_studio";
 
